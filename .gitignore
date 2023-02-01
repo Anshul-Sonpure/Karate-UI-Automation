@@ -1,2 +1,2 @@
-chrome_/
-karate-reports_/
+target/chrome_
+target/karate-reports_
