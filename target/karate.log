@@ -1,0 +1,3 @@
+22:26:48.692 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1675270608690
+22:26:53.949 [chrome_1675270609477] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\anshulsonpure\eclipse-workspace\KarateUIAutomation\target\chrome_1675270609477, --disable-popup-blocking] working dir: target\chrome_1675270609477
+22:26:54.455 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/testScripts/LaunchApp.feature
