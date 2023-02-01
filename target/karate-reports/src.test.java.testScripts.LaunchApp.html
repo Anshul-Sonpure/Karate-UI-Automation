@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ec22058b-cf9b-416f-a402-ccec7ec9006e",{name:"anshulsonpure"});
+    posthog.capture("report_feature",{karate_version:"1.3.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.testScripts.LaunchApp</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-02-01 08:11:28 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>User must able to login in SauceDemo</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/testScripts/LaunchApp.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Lauching App in chrome browser</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">User must able to login in SauceDemo</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>5749</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = { type: &#39;chrome&#39;, showDriverLog: true,httpConfig: { readTimeout: 120000 } }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">42</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://www.saucedemo.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3165</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">20:11:23.568 request:
+1 &gt; GET http://localhost:9222/json
+1 &gt; Host: localhost:9222
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:11:23.572 response time in milliseconds: 4
+1 &lt; 200
+1 &lt; Content-Length: 1278
+1 &lt; Content-Type: application/json; charset=UTF-8
+[ {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/642852BD6B44A1FF2C03B840A7929191&quot;,
+   &quot;id&quot;: &quot;642852BD6B44A1FF2C03B840A7929191&quot;,
+   &quot;title&quot;: &quot;Google Network Speech&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/642852BD6B44A1FF2C03B840A7929191&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/60D2231D4B19842565C88E5FB8B42DC1&quot;,
+   &quot;id&quot;: &quot;60D2231D4B19842565C88E5FB8B42DC1&quot;,
+   &quot;title&quot;: &quot;Google Hangouts&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/60D2231D4B19842565C88E5FB8B42DC1&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/4CAED576F7ACB45BCDB2916FDED72251&quot;,
+   &quot;id&quot;: &quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,
+   &quot;title&quot;: &quot;Welcome to Chrome&quot;,
+   &quot;type&quot;: &quot;page&quot;,
+   &quot;url&quot;: &quot;chrome://welcome/&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/4CAED576F7ACB45BCDB2916FDED72251&quot;
+} ]
+
+
+20:11:23.577 root frame id: 4CAED576F7ACB45BCDB2916FDED72251
+20:11:23.931 &gt;&gt; {&quot;id&quot;:1,&quot;method&quot;:&quot;Target.attachToTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;flatten&quot;:true}}
+20:11:23.956 &lt;&lt; {&quot;method&quot;:&quot;Target.attachedToTarget&quot;,&quot;params&quot;:{&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;},&quot;waitingForDebugger&quot;:false}}
+20:11:23.957 &lt;&lt; {&quot;id&quot;:1,&quot;result&quot;:{&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}}
+20:11:23.957 &gt;&gt; {&quot;id&quot;:2,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Target.activateTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;}}
+20:11:23.960 &lt;&lt; {&quot;id&quot;:2,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.963 &gt;&gt; {&quot;id&quot;:3,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Target.setDiscoverTargets&quot;,&quot;params&quot;:{&quot;discover&quot;:true}}
+20:11:23.966 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.966 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;60D2231D4B19842565C88E5FB8B42DC1&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Hangouts&quot;,&quot;url&quot;:&quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.967 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;642852BD6B44A1FF2C03B840A7929191&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Network Speech&quot;,&quot;url&quot;:&quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.969 &lt;&lt; {&quot;id&quot;:3,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.969 &gt;&gt; {&quot;id&quot;:4,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Page.enable&quot;}
+20:11:23.971 &lt;&lt; {&quot;id&quot;:4,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.971 &gt;&gt; {&quot;id&quot;:5,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Runtime.enable&quot;}
+20:11:23.973 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;chrome://welcome&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;1923262202037578089.1960158591817904722&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;}}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.974 &lt;&lt; {&quot;id&quot;:5,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:23.975 &gt;&gt; {&quot;id&quot;:6,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Browser.getWindowForTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;}}
+20:11:23.978 &lt;&lt; {&quot;id&quot;:6,&quot;result&quot;:{&quot;windowId&quot;:1379541052,&quot;bounds&quot;:{&quot;left&quot;:10,&quot;top&quot;:10,&quot;width&quot;:1050,&quot;height&quot;:652,&quot;windowState&quot;:&quot;normal&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.102 &gt;&gt; {&quot;id&quot;:7,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Page.navigate&quot;,&quot;params&quot;:{&quot;url&quot;:&quot;https:\/\/www.saucedemo.com\/&quot;}}
+20:11:24.805 &lt;&lt; {&quot;id&quot;:7,&quot;result&quot;:{&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;loaderId&quot;:&quot;DE5BDF8FBC4C17528E32B48B1F74F5E6&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.807 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.810 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.833 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;https://www.saucedemo.com&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.846 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.847 &lt;&lt; {&quot;method&quot;:&quot;Page.frameNavigated&quot;,&quot;params&quot;:{&quot;frame&quot;:{&quot;id&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;loaderId&quot;:&quot;DE5BDF8FBC4C17528E32B48B1F74F5E6&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/&quot;,&quot;domainAndRegistry&quot;:&quot;saucedemo.com&quot;,&quot;securityOrigin&quot;:&quot;https://www.saucedemo.com&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;adFrameStatus&quot;:{&quot;adFrameType&quot;:&quot;none&quot;},&quot;secureContextType&quot;:&quot;Secure&quot;,&quot;crossOriginIsolatedContextType&quot;:&quot;NotIsolated&quot;,&quot;gatedAPIFeatures&quot;:[]},&quot;type&quot;:&quot;Navigation&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:24.849 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;https://www.saucedemo.com&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;1907201380297043175.-1121897655126992845&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;}}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.738 &lt;&lt; {&quot;method&quot;:&quot;Page.domContentEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:1332571.79407},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>driver.maximize()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">75</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">20:11:25.800 &gt;&gt; {&quot;id&quot;:8,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Browser.setWindowBounds&quot;,&quot;params&quot;:{&quot;windowId&quot;:1379541052,&quot;bounds&quot;:{&quot;windowState&quot;:&quot;maximized&quot;}}}
+20:11:25.813 &lt;&lt; {&quot;id&quot;:8,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>input(&#39;input[name=user-name]&#39;,&#39;standard_user&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">232</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">20:11:25.821 &lt;&lt; {&quot;method&quot;:&quot;Page.frameResized&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.822 &lt;&lt; {&quot;method&quot;:&quot;Page.frameResized&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.855 &gt;&gt; {&quot;id&quot;:9,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;var e = document.querySelector(\&quot;input[name=user-name]\&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}&quot;,&quot;returnByValue&quot;:true}}
+20:11:25.858 &lt;&lt; {&quot;id&quot;:9,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;number&quot;,&quot;value&quot;:0,&quot;description&quot;:&quot;0&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.863 &gt;&gt; {&quot;id&quot;:10,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:25.867 &lt;&lt; {&quot;id&quot;:10,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.868 &gt;&gt; {&quot;id&quot;:11,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:25.877 &lt;&lt; {&quot;id&quot;:11,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.879 &gt;&gt; {&quot;id&quot;:12,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:25.880 &lt;&lt; {&quot;id&quot;:12,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.882 &gt;&gt; {&quot;id&quot;:13,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:11:25.884 &lt;&lt; {&quot;id&quot;:13,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.886 &gt;&gt; {&quot;id&quot;:14,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:11:25.891 &lt;&lt; {&quot;id&quot;:14,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.892 &gt;&gt; {&quot;id&quot;:15,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:11:25.894 &lt;&lt; {&quot;id&quot;:15,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.895 &gt;&gt; {&quot;id&quot;:16,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:25.897 &lt;&lt; {&quot;id&quot;:16,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.898 &gt;&gt; {&quot;id&quot;:17,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:25.903 &lt;&lt; {&quot;id&quot;:17,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.905 &gt;&gt; {&quot;id&quot;:18,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:25.907 &lt;&lt; {&quot;id&quot;:18,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.908 &gt;&gt; {&quot;id&quot;:19,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;n&quot;,&quot;windowsVirtualKeyCode&quot;:110}}
+20:11:25.911 &lt;&lt; {&quot;id&quot;:19,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.912 &gt;&gt; {&quot;id&quot;:20,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;n&quot;,&quot;windowsVirtualKeyCode&quot;:110}}
+20:11:25.916 &lt;&lt; {&quot;id&quot;:20,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.918 &gt;&gt; {&quot;id&quot;:21,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;n&quot;,&quot;windowsVirtualKeyCode&quot;:110}}
+20:11:25.920 &lt;&lt; {&quot;id&quot;:21,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.921 &gt;&gt; {&quot;id&quot;:22,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:11:25.923 &lt;&lt; {&quot;id&quot;:22,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.924 &gt;&gt; {&quot;id&quot;:23,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:11:25.929 &lt;&lt; {&quot;id&quot;:23,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.930 &gt;&gt; {&quot;id&quot;:24,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:11:25.932 &lt;&lt; {&quot;id&quot;:24,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.934 &gt;&gt; {&quot;id&quot;:25,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:25.936 &lt;&lt; {&quot;id&quot;:25,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.937 &gt;&gt; {&quot;id&quot;:26,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:25.941 &lt;&lt; {&quot;id&quot;:26,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.942 &gt;&gt; {&quot;id&quot;:27,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:25.947 &lt;&lt; {&quot;id&quot;:27,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.948 &gt;&gt; {&quot;id&quot;:28,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:25.950 &lt;&lt; {&quot;id&quot;:28,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.951 &gt;&gt; {&quot;id&quot;:29,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:25.954 &lt;&lt; {&quot;id&quot;:29,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.956 &gt;&gt; {&quot;id&quot;:30,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:25.957 &lt;&lt; {&quot;id&quot;:30,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.958 &gt;&gt; {&quot;id&quot;:31,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:11:25.962 &lt;&lt; {&quot;id&quot;:31,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.963 &gt;&gt; {&quot;id&quot;:32,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:11:25.967 &lt;&lt; {&quot;id&quot;:32,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.968 &gt;&gt; {&quot;id&quot;:33,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:11:25.970 &lt;&lt; {&quot;id&quot;:33,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.972 &gt;&gt; {&quot;id&quot;:34,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:11:25.974 &lt;&lt; {&quot;id&quot;:34,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.975 &gt;&gt; {&quot;id&quot;:35,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:11:25.980 &lt;&lt; {&quot;id&quot;:35,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.982 &gt;&gt; {&quot;id&quot;:36,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:11:25.984 &lt;&lt; {&quot;id&quot;:36,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.987 &gt;&gt; {&quot;id&quot;:37,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:11:25.990 &lt;&lt; {&quot;id&quot;:37,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.991 &gt;&gt; {&quot;id&quot;:38,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:11:25.997 &lt;&lt; {&quot;id&quot;:38,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:25.998 &gt;&gt; {&quot;id&quot;:39,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:11:26.000 &lt;&lt; {&quot;method&quot;:&quot;Page.loadEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:1332572.056204},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.001 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.001 &lt;&lt; {&quot;id&quot;:39,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.003 &gt;&gt; {&quot;id&quot;:40,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.005 &lt;&lt; {&quot;id&quot;:40,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.006 &gt;&gt; {&quot;id&quot;:41,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.011 &lt;&lt; {&quot;id&quot;:41,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.014 &gt;&gt; {&quot;id&quot;:42,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.015 &lt;&lt; {&quot;id&quot;:42,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.017 &gt;&gt; {&quot;id&quot;:43,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.019 &lt;&lt; {&quot;id&quot;:43,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.019 &gt;&gt; {&quot;id&quot;:44,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.024 &lt;&lt; {&quot;id&quot;:44,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.024 &gt;&gt; {&quot;id&quot;:45,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.028 &lt;&lt; {&quot;id&quot;:45,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.030 &gt;&gt; {&quot;id&quot;:46,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:26.032 &lt;&lt; {&quot;id&quot;:46,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.033 &gt;&gt; {&quot;id&quot;:47,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:26.037 &lt;&lt; {&quot;id&quot;:47,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.038 &gt;&gt; {&quot;id&quot;:48,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:26.041 &lt;&lt; {&quot;id&quot;:48,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.046 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;A6D7684EFD9AA9D98610E4AD470B5207&quot;,&quot;type&quot;:&quot;service_worker&quot;,&quot;title&quot;:&quot;Service Worker https://www.saucedemo.com/service-worker.js&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/service-worker.js&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>input(&#39;input[name=password]&#39;,&#39;secret_sauce&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">147</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">20:11:26.050 &gt;&gt; {&quot;id&quot;:49,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;var e = document.querySelector(\&quot;input[name=password]\&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}&quot;,&quot;returnByValue&quot;:true}}
+20:11:26.055 &lt;&lt; {&quot;id&quot;:49,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;number&quot;,&quot;value&quot;:0,&quot;description&quot;:&quot;0&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.057 &gt;&gt; {&quot;id&quot;:50,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.064 &lt;&lt; {&quot;id&quot;:50,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.065 &gt;&gt; {&quot;id&quot;:51,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.069 &lt;&lt; {&quot;id&quot;:51,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.070 &gt;&gt; {&quot;id&quot;:52,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.072 &lt;&lt; {&quot;id&quot;:52,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.073 &gt;&gt; {&quot;id&quot;:53,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.076 &lt;&lt; {&quot;id&quot;:53,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.077 &gt;&gt; {&quot;id&quot;:54,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.081 &lt;&lt; {&quot;id&quot;:54,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.083 &gt;&gt; {&quot;id&quot;:55,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.085 &lt;&lt; {&quot;id&quot;:55,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.085 &gt;&gt; {&quot;id&quot;:56,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:11:26.087 &lt;&lt; {&quot;id&quot;:56,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.088 &gt;&gt; {&quot;id&quot;:57,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:11:26.092 &lt;&lt; {&quot;id&quot;:57,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.095 &gt;&gt; {&quot;id&quot;:58,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:11:26.097 &lt;&lt; {&quot;id&quot;:58,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.097 &gt;&gt; {&quot;id&quot;:59,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:26.099 &lt;&lt; {&quot;id&quot;:59,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.100 &gt;&gt; {&quot;id&quot;:60,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:26.103 &lt;&lt; {&quot;id&quot;:60,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.105 &gt;&gt; {&quot;id&quot;:61,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:11:26.107 &lt;&lt; {&quot;id&quot;:61,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.108 &gt;&gt; {&quot;id&quot;:62,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.111 &lt;&lt; {&quot;id&quot;:62,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.112 &gt;&gt; {&quot;id&quot;:63,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.115 &lt;&lt; {&quot;id&quot;:63,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.116 &gt;&gt; {&quot;id&quot;:64,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.118 &lt;&lt; {&quot;id&quot;:64,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.119 &gt;&gt; {&quot;id&quot;:65,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:11:26.121 &lt;&lt; {&quot;id&quot;:65,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.123 &gt;&gt; {&quot;id&quot;:66,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:11:26.126 &lt;&lt; {&quot;id&quot;:66,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.127 &gt;&gt; {&quot;id&quot;:67,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:11:26.130 &lt;&lt; {&quot;id&quot;:67,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.130 &gt;&gt; {&quot;id&quot;:68,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:11:26.132 &lt;&lt; {&quot;id&quot;:68,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.132 &gt;&gt; {&quot;id&quot;:69,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:11:26.137 &lt;&lt; {&quot;id&quot;:69,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.137 &gt;&gt; {&quot;id&quot;:70,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:11:26.141 &lt;&lt; {&quot;id&quot;:70,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.142 &gt;&gt; {&quot;id&quot;:71,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.145 &lt;&lt; {&quot;id&quot;:71,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.145 &gt;&gt; {&quot;id&quot;:72,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.154 &lt;&lt; {&quot;id&quot;:72,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.154 &gt;&gt; {&quot;id&quot;:73,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:11:26.157 &lt;&lt; {&quot;id&quot;:73,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.157 &gt;&gt; {&quot;id&quot;:74,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:26.159 &lt;&lt; {&quot;id&quot;:74,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.160 &gt;&gt; {&quot;id&quot;:75,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:26.163 &lt;&lt; {&quot;id&quot;:75,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.165 &gt;&gt; {&quot;id&quot;:76,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:11:26.167 &lt;&lt; {&quot;id&quot;:76,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.167 &gt;&gt; {&quot;id&quot;:77,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:11:26.169 &lt;&lt; {&quot;id&quot;:77,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.169 &gt;&gt; {&quot;id&quot;:78,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:11:26.172 &lt;&lt; {&quot;id&quot;:78,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.173 &gt;&gt; {&quot;id&quot;:79,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:11:26.174 &lt;&lt; {&quot;id&quot;:79,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.174 &gt;&gt; {&quot;id&quot;:80,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:11:26.177 &lt;&lt; {&quot;id&quot;:80,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.178 &gt;&gt; {&quot;id&quot;:81,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:11:26.181 &lt;&lt; {&quot;id&quot;:81,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.183 &gt;&gt; {&quot;id&quot;:82,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:11:26.185 &lt;&lt; {&quot;id&quot;:82,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.186 &gt;&gt; {&quot;id&quot;:83,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.187 &lt;&lt; {&quot;id&quot;:83,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.188 &gt;&gt; {&quot;id&quot;:84,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.191 &lt;&lt; {&quot;id&quot;:84,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.191 &gt;&gt; {&quot;id&quot;:85,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:11:26.194 &lt;&lt; {&quot;id&quot;:85,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>click(&#39;input[name=login-button]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">55</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">20:11:26.200 &gt;&gt; {&quot;id&quot;:86,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.querySelector(\&quot;input[name=login-button]\&quot;).click()&quot;,&quot;returnByValue&quot;:true}}
+20:11:26.204 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.214 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Swag Labs&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/inventory.html&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.215 &lt;&lt; {&quot;method&quot;:&quot;Page.navigatedWithinDocument&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/inventory.html&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.215 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.249 &lt;&lt; {&quot;id&quot;:86,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>delay(2000)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2028</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">20:11:26.290 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C7040FC01201CF433BE680E04D73EE6F&quot;,&quot;type&quot;:&quot;other&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.438 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C7040FC01201CF433BE680E04D73EE6F&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Docs Offline&quot;,&quot;url&quot;:&quot;chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.977 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;9DCB52A23AD47A96BDBAA15970843E31&quot;,&quot;type&quot;:&quot;app&quot;,&quot;title&quot;:&quot;Chrome Web Store Payments&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:26.991 &lt;&lt; {&quot;method&quot;:&quot;Target.targetDestroyed&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;A6D7684EFD9AA9D98610E4AD470B5207&quot;},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:27.072 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;9DCB52A23AD47A96BDBAA15970843E31&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Chrome Web Store Payments&quot;,&quot;url&quot;:&quot;chrome-extension://nmmhkkegccagdldgiimedpiccmgmieda/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;E6D344717F0D08A905253A93416B68AB&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>waitForUrl(&#39;https://www.saucedemo.com/inventory.html&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">20:11:28.281 &gt;&gt; {&quot;id&quot;:87,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.location.href&quot;,&quot;returnByValue&quot;:true}}
+20:11:28.283 &lt;&lt; {&quot;id&quot;:87,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;string&quot;,&quot;value&quot;:&quot;https://www.saucedemo.com/inventory.html&quot;}},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+20:11:28.283 &gt;&gt; {&quot;id&quot;:88,&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;,&quot;method&quot;:&quot;Target.closeTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;4CAED576F7ACB45BCDB2916FDED72251&quot;}}
+20:11:28.285 &lt;&lt; {&quot;id&quot;:88,&quot;result&quot;:{&quot;success&quot;:true},&quot;sessionId&quot;:&quot;5A9332E65FAD8015F56F0AC054DBF281&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

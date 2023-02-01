@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ec22058b-cf9b-416f-a402-ccec7ec9006e",{name:"anshulsonpure"});
+    posthog.capture("report_feature",{karate_version:"1.3.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.testScripts.LaunchApp</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-02-01 07:21:42 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>User must able to login to SauceDemo</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/testScripts/LaunchApp.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Lauching App in chrome browser</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">User must able to login to SauceDemo</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>9062</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = { type: &#39;chrome&#39;, showDriverLog: true,httpConfig: { readTimeout: 120000 } }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">54</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://www.saucedemo.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5817</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">19:21:34.848 request:
+1 &gt; GET http://localhost:9222/json
+1 &gt; Host: localhost:9222
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:21:34.851 response time in milliseconds: 3
+1 &lt; 200
+1 &lt; Content-Length: 1278
+1 &lt; Content-Type: application/json; charset=UTF-8
+[ {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/AFEBB3A8658D6A77A8D0AA645D476F13&quot;,
+   &quot;id&quot;: &quot;AFEBB3A8658D6A77A8D0AA645D476F13&quot;,
+   &quot;title&quot;: &quot;Google Network Speech&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/AFEBB3A8658D6A77A8D0AA645D476F13&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/3476B0E248457E00FD30B69FE775E01E&quot;,
+   &quot;id&quot;: &quot;3476B0E248457E00FD30B69FE775E01E&quot;,
+   &quot;title&quot;: &quot;Google Hangouts&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/3476B0E248457E00FD30B69FE775E01E&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/8FA1B540DAB9DE88BFF0791635707D1B&quot;,
+   &quot;id&quot;: &quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,
+   &quot;title&quot;: &quot;Welcome to Chrome&quot;,
+   &quot;type&quot;: &quot;page&quot;,
+   &quot;url&quot;: &quot;chrome://welcome/&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/8FA1B540DAB9DE88BFF0791635707D1B&quot;
+} ]
+
+
+19:21:34.856 root frame id: 8FA1B540DAB9DE88BFF0791635707D1B
+19:21:35.470 &gt;&gt; {&quot;id&quot;:1,&quot;method&quot;:&quot;Target.attachToTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,&quot;flatten&quot;:true}}
+19:21:35.496 &lt;&lt; {&quot;method&quot;:&quot;Target.attachedToTarget&quot;,&quot;params&quot;:{&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;},&quot;waitingForDebugger&quot;:false}}
+19:21:35.497 &lt;&lt; {&quot;id&quot;:1,&quot;result&quot;:{&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}}
+19:21:35.497 &gt;&gt; {&quot;id&quot;:2,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Target.activateTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;}}
+19:21:35.501 &lt;&lt; {&quot;id&quot;:2,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.501 &gt;&gt; {&quot;id&quot;:3,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Target.setDiscoverTargets&quot;,&quot;params&quot;:{&quot;discover&quot;:true}}
+19:21:35.503 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;3476B0E248457E00FD30B69FE775E01E&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Hangouts&quot;,&quot;url&quot;:&quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.504 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.504 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;AFEBB3A8658D6A77A8D0AA645D476F13&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Network Speech&quot;,&quot;url&quot;:&quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.505 &lt;&lt; {&quot;id&quot;:3,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.505 &gt;&gt; {&quot;id&quot;:4,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Page.enable&quot;}
+19:21:35.507 &lt;&lt; {&quot;id&quot;:4,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.507 &gt;&gt; {&quot;id&quot;:5,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Runtime.enable&quot;}
+19:21:35.512 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;chrome://welcome&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;-1696004445233043451.2520068592647081032&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;}}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.513 &lt;&lt; {&quot;id&quot;:5,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.514 &gt;&gt; {&quot;id&quot;:6,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Browser.getWindowForTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;}}
+19:21:35.516 &lt;&lt; {&quot;id&quot;:6,&quot;result&quot;:{&quot;windowId&quot;:330665522,&quot;bounds&quot;:{&quot;left&quot;:10,&quot;top&quot;:10,&quot;width&quot;:1050,&quot;height&quot;:652,&quot;windowState&quot;:&quot;normal&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:35.636 &gt;&gt; {&quot;id&quot;:7,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Page.navigate&quot;,&quot;params&quot;:{&quot;url&quot;:&quot;https:\/\/www.saucedemo.com\/&quot;}}
+19:21:38.783 &lt;&lt; {&quot;id&quot;:7,&quot;result&quot;:{&quot;frameId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,&quot;loaderId&quot;:&quot;89F6E4285056EC9CDC75C675DF12FE2F&quot;},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:38.785 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:38.787 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:38.805 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;https://www.saucedemo.com&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:38.806 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:38.808 &lt;&lt; {&quot;method&quot;:&quot;Page.frameNavigated&quot;,&quot;params&quot;:{&quot;frame&quot;:{&quot;id&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;,&quot;loaderId&quot;:&quot;89F6E4285056EC9CDC75C675DF12FE2F&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/&quot;,&quot;domainAndRegistry&quot;:&quot;saucedemo.com&quot;,&quot;securityOrigin&quot;:&quot;https://www.saucedemo.com&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;adFrameStatus&quot;:{&quot;adFrameType&quot;:&quot;none&quot;},&quot;secureContextType&quot;:&quot;Secure&quot;,&quot;crossOriginIsolatedContextType&quot;:&quot;NotIsolated&quot;,&quot;gatedAPIFeatures&quot;:[]},&quot;type&quot;:&quot;Navigation&quot;},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:38.810 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;https://www.saucedemo.com&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;133368585310294981.-6437530613084139357&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;}}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:39.551 &lt;&lt; {&quot;method&quot;:&quot;Page.domContentEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:1329585.613122},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref failed">9</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>input(&#39;input[name=q]&#39;,&#39;youtube.com&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3191</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">19:21:39.694 &lt;&lt; {&quot;method&quot;:&quot;Page.loadEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:1329585.757221},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:39.694 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:39.695 &gt;&gt; {&quot;id&quot;:8,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;var e = document.querySelector(\&quot;input[name=q]\&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}&quot;,&quot;returnByValue&quot;:true}}
+19:21:39.698 &lt;&lt; {&quot;id&quot;:8,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read properties of null (reading &#39;focus&#39;)\n    at &lt;anonymous&gt;:1:52&quot;,&quot;objectId&quot;:&quot;8972404115144835620.1.1&quot;},&quot;exceptionDetails&quot;:{&quot;exceptionId&quot;:1,&quot;text&quot;:&quot;Uncaught&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:51,&quot;scriptId&quot;:&quot;9&quot;,&quot;stackTrace&quot;:{&quot;callFrames&quot;:[{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;9&quot;,&quot;url&quot;:&quot;&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:51}]},&quot;exception&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read properties of null (reading &#39;focus&#39;)\n    at &lt;anonymous&gt;:1:52&quot;,&quot;objectId&quot;:&quot;8972404115144835620.1.2&quot;}}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:39.699 devtools error: [id: 8, sessionId: 2B60ACF7E816F955C320521746245A2E, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading &#39;focus&#39;)
+    at &lt;anonymous&gt;:1:52, objectId=8972404115144835620.1.1}]]
+19:21:39.699 js eval failed once:var e = document.querySelector(&quot;input[name=q]&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading &#39;focus&#39;)
+    at &lt;anonymous&gt;:1:52, objectId=8972404115144835620.1.1}]
+19:21:39.740 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;398FD8948E2168D25E19CFBB811E3B13&quot;,&quot;type&quot;:&quot;service_worker&quot;,&quot;title&quot;:&quot;Service Worker https://www.saucedemo.com/service-worker.js&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/service-worker.js&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:40.748 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;A43A9F89C7278558C271B09D7B8DC54D&quot;,&quot;type&quot;:&quot;other&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:40.845 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;A43A9F89C7278558C271B09D7B8DC54D&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Docs Offline&quot;,&quot;url&quot;:&quot;chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;2A4EAD4C14C9FD3DC9C1678755F80686&quot;}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:42.711 &gt;&gt; {&quot;id&quot;:9,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;var e = document.querySelector(\&quot;input[name=q]\&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}&quot;,&quot;returnByValue&quot;:true}}
+19:21:42.714 &lt;&lt; {&quot;id&quot;:9,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read properties of null (reading &#39;focus&#39;)\n    at &lt;anonymous&gt;:1:52&quot;,&quot;objectId&quot;:&quot;8972404115144835620.1.3&quot;},&quot;exceptionDetails&quot;:{&quot;exceptionId&quot;:2,&quot;text&quot;:&quot;Uncaught&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:51,&quot;scriptId&quot;:&quot;9&quot;,&quot;stackTrace&quot;:{&quot;callFrames&quot;:[{&quot;functionName&quot;:&quot;&quot;,&quot;scriptId&quot;:&quot;9&quot;,&quot;url&quot;:&quot;&quot;,&quot;lineNumber&quot;:0,&quot;columnNumber&quot;:51}]},&quot;exception&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read properties of null (reading &#39;focus&#39;)\n    at &lt;anonymous&gt;:1:52&quot;,&quot;objectId&quot;:&quot;8972404115144835620.1.4&quot;}}},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+19:21:42.715 devtools error: [id: 9, sessionId: 2B60ACF7E816F955C320521746245A2E, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading &#39;focus&#39;)
+    at &lt;anonymous&gt;:1:52, objectId=8972404115144835620.1.3}]]
+19:21:42.715 js eval failed twice:var e = document.querySelector(&quot;input[name=q]&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading &#39;focus&#39;)
+    at &lt;anonymous&gt;:1:52, objectId=8972404115144835620.1.3}]
+19:21:42.742 src/test/java/testScripts/LaunchApp.feature:9
+And input(&#39;input[name=q]&#39;,&#39;youtube.com&#39;)
+js failed:
+&gt;&gt;&gt;&gt;
+01: input(&#39;input[name=q]&#39;,&#39;youtube.com&#39;)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: js eval failed twice:var e = document.querySelector(&quot;input[name=q]&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading &#39;focus&#39;)
+    at &lt;anonymous&gt;:1:52, objectId=8972404115144835620.1.3}]
+- com.intuit.karate.driver.DevToolsDriver.evalInternal(DevToolsDriver.java:348)
+- com.intuit.karate.driver.DevToolsDriver.eval(DevToolsDriver.java:322)
+- com.intuit.karate.driver.DevToolsDriver.input(DevToolsDriver.java:626)
+- &lt;js&gt;.:anonymous(Unnamed:1)
+
+src/test/java/testScripts/LaunchApp.feature:9
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref skipped">10</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>click (&#39;input[name=btnK]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  <div class="embed" data-parent="0.10"><img src="src.test.java.testScripts.LaunchApp_1_1675259502863.png"/></div>
+
+  <div class="preformatted" data-parent="0.10">19:21:42.743 &gt;&gt; {&quot;id&quot;:10,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Page.captureScreenshot&quot;}
+19:21:42.854 &lt;&lt; {&quot;id&quot;:10,&quot;result&quot;:{&quot;data&quot;:&quot;iVBORw0KGgoAAAANSUhEUgAABhIAAANQCAYAAADNA/XuAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3dmTXOd55/nv2TOz9n1DVaGwEDsB7qREkJRkW22pbbctW+6JmYu+6buZv6NvZ/6AmauZiFZ0hDySuy2PbUqixB0k9n2vvVCF2iuXs8/FWyiwAGShAJGUCP0+EQpJVXlOnnMqM4J8f+/zPFae5zkiIiIiIiIiIiIiIvKNs7Ky8pW/h/2Vv4OIiIiIiIiIiIiIiHxjKUgQEREREREREREREZG6FCSIiIiIiIiIiIiIiEhdChJERERERERERERERKQuBQkiIiIiIiIiIiIiIlKXggQREREREREREREREalLQYKIiIiIiIiIiIiIiNSlIEFEREREREREREREROpSkCAiIiIiIiIiIiIiInUpSBARERERERERERER+SPx85///ImPUZAgIiIiIiIiIiIiIvJH4F6I8KRhgoIEEREREREREREREZFn3IPhwZOECQoSRERERERERERERESeYfVCg+2GCQoSRERERERERERERESeUY8LC7YTJihIEBERERERERERERF5Bm234uBxr7PyPM+/jAsSEREREREREREREZGv18rKylf+HqpIEBERERERERERERGRuhQkiIiIiIiIiIiIiIhIXQoSRERERERERERERESkLgUJIiIiIiIiIiIiIiJSl4IEERERERERERERERGpS0GCiIiIiIiIiIiIiIjUpSBBRERERERERERERETqUpAgIiIiIiIiIiIiIiJ1ub/vCxARERERERERERERkd/N6dOnv/RzHjt2DFBFgoiIiIiIiIiIiIiIbEFBgoiIiIiIiIiIiIiI1KUgQURERERERERERERE6lKQICIiIiIiIiIiIiIidSlIEBERERERERERERGRuhQkiIiIiIiIiIiIiIhIXQoSRERERERERERERESkLgUJIiIiIiIiIiIiIiJSl4IEE ...
+19:21:42.868 &gt;&gt; {&quot;id&quot;:11,&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;,&quot;method&quot;:&quot;Target.closeTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;8FA1B540DAB9DE88BFF0791635707D1B&quot;}}
+19:21:42.870 &lt;&lt; {&quot;id&quot;:11,&quot;result&quot;:{&quot;success&quot;:true},&quot;sessionId&quot;:&quot;2B60ACF7E816F955C320521746245A2E&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

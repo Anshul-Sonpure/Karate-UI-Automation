@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ec22058b-cf9b-416f-a402-ccec7ec9006e",{name:"anshulsonpure"});
+    posthog.capture("report_feature",{karate_version:"1.3.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.testScripts.LaunchApp</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-02-01 08:10:22 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>User must able to login in SauceDemo</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/testScripts/LaunchApp.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Lauching App in chrome browser</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">User must able to login in SauceDemo</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>6242</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = { type: &#39;chrome&#39;, showDriverLog: true,httpConfig: { readTimeout: 120000 } }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">43</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://www.saucedemo.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3709</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">20:10:17.109 request:
+1 &gt; GET http://localhost:9222/json
+1 &gt; Host: localhost:9222
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.4.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:10:17.116 response time in milliseconds: 6
+1 &lt; 200
+1 &lt; Content-Length: 1278
+1 &lt; Content-Type: application/json; charset=UTF-8
+[ {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/C5EC8AF9C18278AF19315BAF06489F50&quot;,
+   &quot;id&quot;: &quot;C5EC8AF9C18278AF19315BAF06489F50&quot;,
+   &quot;title&quot;: &quot;Google Network Speech&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/C5EC8AF9C18278AF19315BAF06489F50&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/661E320756DB2CE471C61A222DE76FF7&quot;,
+   &quot;id&quot;: &quot;661E320756DB2CE471C61A222DE76FF7&quot;,
+   &quot;title&quot;: &quot;Google Hangouts&quot;,
+   &quot;type&quot;: &quot;background_page&quot;,
+   &quot;url&quot;: &quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/661E320756DB2CE471C61A222DE76FF7&quot;
+}, {
+   &quot;description&quot;: &quot;&quot;,
+   &quot;devtoolsFrontendUrl&quot;: &quot;/devtools/inspector.html?ws=localhost:9222/devtools/page/C1E1A66910E2286DB051B11766C1BB8E&quot;,
+   &quot;id&quot;: &quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,
+   &quot;title&quot;: &quot;Welcome to Chrome&quot;,
+   &quot;type&quot;: &quot;page&quot;,
+   &quot;url&quot;: &quot;chrome://welcome/&quot;,
+   &quot;webSocketDebuggerUrl&quot;: &quot;ws://localhost:9222/devtools/page/C1E1A66910E2286DB051B11766C1BB8E&quot;
+} ]
+
+
+20:10:17.122 root frame id: C1E1A66910E2286DB051B11766C1BB8E
+20:10:17.564 &gt;&gt; {&quot;id&quot;:1,&quot;method&quot;:&quot;Target.attachToTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;flatten&quot;:true}}
+20:10:17.589 &lt;&lt; {&quot;method&quot;:&quot;Target.attachedToTarget&quot;,&quot;params&quot;:{&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;},&quot;waitingForDebugger&quot;:false}}
+20:10:17.590 &lt;&lt; {&quot;id&quot;:1,&quot;result&quot;:{&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}}
+20:10:17.591 &gt;&gt; {&quot;id&quot;:2,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Target.activateTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;}}
+20:10:17.593 &lt;&lt; {&quot;id&quot;:2,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.594 &gt;&gt; {&quot;id&quot;:3,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Target.setDiscoverTargets&quot;,&quot;params&quot;:{&quot;discover&quot;:true}}
+20:10:17.596 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;661E320756DB2CE471C61A222DE76FF7&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Hangouts&quot;,&quot;url&quot;:&quot;chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.596 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Welcome to Chrome&quot;,&quot;url&quot;:&quot;chrome://welcome/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.597 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C5EC8AF9C18278AF19315BAF06489F50&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Network Speech&quot;,&quot;url&quot;:&quot;chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.597 &lt;&lt; {&quot;id&quot;:3,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.598 &gt;&gt; {&quot;id&quot;:4,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Page.enable&quot;}
+20:10:17.601 &lt;&lt; {&quot;id&quot;:4,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.601 &gt;&gt; {&quot;id&quot;:5,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Runtime.enable&quot;}
+20:10:17.604 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;chrome://welcome&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;-8282064213640283789.1390373123229811463&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;}}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.605 &lt;&lt; {&quot;id&quot;:5,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.605 &gt;&gt; {&quot;id&quot;:6,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Browser.getWindowForTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;}}
+20:10:17.607 &lt;&lt; {&quot;id&quot;:6,&quot;result&quot;:{&quot;windowId&quot;:518105878,&quot;bounds&quot;:{&quot;left&quot;:10,&quot;top&quot;:10,&quot;width&quot;:1050,&quot;height&quot;:652,&quot;windowState&quot;:&quot;normal&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:17.719 &gt;&gt; {&quot;id&quot;:7,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Page.navigate&quot;,&quot;params&quot;:{&quot;url&quot;:&quot;https:\/\/www.saucedemo.com\/&quot;}}
+20:10:19.086 &lt;&lt; {&quot;id&quot;:7,&quot;result&quot;:{&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;loaderId&quot;:&quot;88F92A29314D1E11A4D4C0FA8EAD38C0&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.087 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.089 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.100 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;https://www.saucedemo.com&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.104 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextsCleared&quot;,&quot;params&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.105 &lt;&lt; {&quot;method&quot;:&quot;Page.frameNavigated&quot;,&quot;params&quot;:{&quot;frame&quot;:{&quot;id&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;loaderId&quot;:&quot;88F92A29314D1E11A4D4C0FA8EAD38C0&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/&quot;,&quot;domainAndRegistry&quot;:&quot;saucedemo.com&quot;,&quot;securityOrigin&quot;:&quot;https://www.saucedemo.com&quot;,&quot;mimeType&quot;:&quot;text/html&quot;,&quot;adFrameStatus&quot;:{&quot;adFrameType&quot;:&quot;none&quot;},&quot;secureContextType&quot;:&quot;Secure&quot;,&quot;crossOriginIsolatedContextType&quot;:&quot;NotIsolated&quot;,&quot;gatedAPIFeatures&quot;:[]},&quot;type&quot;:&quot;Navigation&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.107 &lt;&lt; {&quot;method&quot;:&quot;Runtime.executionContextCreated&quot;,&quot;params&quot;:{&quot;context&quot;:{&quot;id&quot;:1,&quot;origin&quot;:&quot;https://www.saucedemo.com&quot;,&quot;name&quot;:&quot;&quot;,&quot;uniqueId&quot;:&quot;6454716535831745503.985773370047576620&quot;,&quot;auxData&quot;:{&quot;isDefault&quot;:true,&quot;type&quot;:&quot;default&quot;,&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;}}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.587 &lt;&lt; {&quot;method&quot;:&quot;Page.domContentEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:1332505.642667},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>input(&#39;input[name=user-name]&#39;,&#39;standard_user&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">261</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">20:10:19.651 &gt;&gt; {&quot;id&quot;:8,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;var e = document.querySelector(\&quot;input[name=user-name]\&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}&quot;,&quot;returnByValue&quot;:true}}
+20:10:19.655 &lt;&lt; {&quot;id&quot;:8,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;number&quot;,&quot;value&quot;:0,&quot;description&quot;:&quot;0&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.658 &gt;&gt; {&quot;id&quot;:9,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.662 &lt;&lt; {&quot;id&quot;:9,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.663 &gt;&gt; {&quot;id&quot;:10,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.670 &lt;&lt; {&quot;id&quot;:10,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.672 &gt;&gt; {&quot;id&quot;:11,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.675 &lt;&lt; {&quot;id&quot;:11,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.677 &gt;&gt; {&quot;id&quot;:12,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:10:19.680 &lt;&lt; {&quot;id&quot;:12,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.681 &gt;&gt; {&quot;id&quot;:13,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:10:19.687 &lt;&lt; {&quot;id&quot;:13,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.688 &gt;&gt; {&quot;id&quot;:14,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:10:19.694 &lt;&lt; {&quot;id&quot;:14,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.696 &gt;&gt; {&quot;id&quot;:15,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.698 &lt;&lt; {&quot;id&quot;:15,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.699 &gt;&gt; {&quot;id&quot;:16,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.706 &lt;&lt; {&quot;method&quot;:&quot;Page.loadEventFired&quot;,&quot;params&quot;:{&quot;timestamp&quot;:1332505.760978},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.707 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.710 &lt;&lt; {&quot;id&quot;:16,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.711 &gt;&gt; {&quot;id&quot;:17,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.714 &lt;&lt; {&quot;id&quot;:17,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.715 &gt;&gt; {&quot;id&quot;:18,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;n&quot;,&quot;windowsVirtualKeyCode&quot;:110}}
+20:10:19.718 &lt;&lt; {&quot;id&quot;:18,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.720 &gt;&gt; {&quot;id&quot;:19,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;n&quot;,&quot;windowsVirtualKeyCode&quot;:110}}
+20:10:19.725 &lt;&lt; {&quot;id&quot;:19,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.726 &gt;&gt; {&quot;id&quot;:20,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;n&quot;,&quot;windowsVirtualKeyCode&quot;:110}}
+20:10:19.729 &lt;&lt; {&quot;id&quot;:20,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.730 &gt;&gt; {&quot;id&quot;:21,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:10:19.733 &lt;&lt; {&quot;id&quot;:21,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.735 &gt;&gt; {&quot;id&quot;:22,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:10:19.740 &lt;&lt; {&quot;id&quot;:22,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.741 &gt;&gt; {&quot;id&quot;:23,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:10:19.744 &lt;&lt; {&quot;id&quot;:23,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.745 &gt;&gt; {&quot;id&quot;:24,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.747 &lt;&lt; {&quot;id&quot;:24,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.748 &gt;&gt; {&quot;id&quot;:25,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.753 &lt;&lt; {&quot;id&quot;:25,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.755 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C3F914949FD7B0F705C10F97E4ECD425&quot;,&quot;type&quot;:&quot;service_worker&quot;,&quot;title&quot;:&quot;Service Worker https://www.saucedemo.com/service-worker.js&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/service-worker.js&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.756 &gt;&gt; {&quot;id&quot;:26,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.758 &lt;&lt; {&quot;id&quot;:26,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.759 &gt;&gt; {&quot;id&quot;:27,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.761 &lt;&lt; {&quot;id&quot;:27,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.762 &gt;&gt; {&quot;id&quot;:28,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.768 &lt;&lt; {&quot;id&quot;:28,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.770 &gt;&gt; {&quot;id&quot;:29,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.773 &lt;&lt; {&quot;id&quot;:29,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.773 &gt;&gt; {&quot;id&quot;:30,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:10:19.776 &lt;&lt; {&quot;id&quot;:30,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.776 &gt;&gt; {&quot;id&quot;:31,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:10:19.780 &lt;&lt; {&quot;id&quot;:31,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.781 &gt;&gt; {&quot;id&quot;:32,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;d&quot;,&quot;windowsVirtualKeyCode&quot;:100}}
+20:10:19.785 &lt;&lt; {&quot;id&quot;:32,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.786 &gt;&gt; {&quot;id&quot;:33,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:10:19.788 &lt;&lt; {&quot;id&quot;:33,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.789 &gt;&gt; {&quot;id&quot;:34,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:10:19.793 &lt;&lt; {&quot;id&quot;:34,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.794 &gt;&gt; {&quot;id&quot;:35,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:10:19.796 &lt;&lt; {&quot;id&quot;:35,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.798 &gt;&gt; {&quot;id&quot;:36,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:10:19.800 &lt;&lt; {&quot;id&quot;:36,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.801 &gt;&gt; {&quot;id&quot;:37,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:10:19.806 &lt;&lt; {&quot;id&quot;:37,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.806 &gt;&gt; {&quot;id&quot;:38,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:10:19.809 &lt;&lt; {&quot;id&quot;:38,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.809 &gt;&gt; {&quot;id&quot;:39,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.812 &lt;&lt; {&quot;id&quot;:39,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.812 &gt;&gt; {&quot;id&quot;:40,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.817 &lt;&lt; {&quot;id&quot;:40,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.819 &gt;&gt; {&quot;id&quot;:41,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.820 &lt;&lt; {&quot;id&quot;:41,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.821 &gt;&gt; {&quot;id&quot;:42,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.823 &lt;&lt; {&quot;id&quot;:42,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.824 &gt;&gt; {&quot;id&quot;:43,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.828 &lt;&lt; {&quot;id&quot;:43,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.829 &gt;&gt; {&quot;id&quot;:44,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.834 &lt;&lt; {&quot;id&quot;:44,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.835 &gt;&gt; {&quot;id&quot;:45,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.837 &lt;&lt; {&quot;id&quot;:45,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.838 &gt;&gt; {&quot;id&quot;:46,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.842 &lt;&lt; {&quot;id&quot;:46,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.842 &gt;&gt; {&quot;id&quot;:47,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.845 &lt;&lt; {&quot;id&quot;:47,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>input(&#39;input[name=password]&#39;,&#39;secret_sauce&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">143</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">20:10:19.850 &gt;&gt; {&quot;id&quot;:48,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;var e = document.querySelector(\&quot;input[name=password]\&quot;); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}&quot;,&quot;returnByValue&quot;:true}}
+20:10:19.856 &lt;&lt; {&quot;id&quot;:48,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;number&quot;,&quot;value&quot;:0,&quot;description&quot;:&quot;0&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.856 &gt;&gt; {&quot;id&quot;:49,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.859 &lt;&lt; {&quot;id&quot;:49,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.859 &gt;&gt; {&quot;id&quot;:50,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.865 &lt;&lt; {&quot;id&quot;:50,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.866 &gt;&gt; {&quot;id&quot;:51,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.871 &lt;&lt; {&quot;id&quot;:51,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.872 &gt;&gt; {&quot;id&quot;:52,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.874 &lt;&lt; {&quot;id&quot;:52,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.874 &gt;&gt; {&quot;id&quot;:53,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.878 &lt;&lt; {&quot;id&quot;:53,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.879 &gt;&gt; {&quot;id&quot;:54,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.881 &lt;&lt; {&quot;id&quot;:54,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.881 &gt;&gt; {&quot;id&quot;:55,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:10:19.885 &lt;&lt; {&quot;id&quot;:55,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.886 &gt;&gt; {&quot;id&quot;:56,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:10:19.889 &lt;&lt; {&quot;id&quot;:56,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.890 &gt;&gt; {&quot;id&quot;:57,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:10:19.892 &lt;&lt; {&quot;id&quot;:57,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.892 &gt;&gt; {&quot;id&quot;:58,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.894 &lt;&lt; {&quot;id&quot;:58,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.895 &gt;&gt; {&quot;id&quot;:59,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.900 &lt;&lt; {&quot;id&quot;:59,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.901 &gt;&gt; {&quot;id&quot;:60,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;r&quot;,&quot;windowsVirtualKeyCode&quot;:114}}
+20:10:19.904 &lt;&lt; {&quot;id&quot;:60,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.904 &gt;&gt; {&quot;id&quot;:61,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.906 &lt;&lt; {&quot;id&quot;:61,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.908 &gt;&gt; {&quot;id&quot;:62,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.911 &lt;&lt; {&quot;id&quot;:62,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.912 &gt;&gt; {&quot;id&quot;:63,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.915 &lt;&lt; {&quot;id&quot;:63,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.916 &gt;&gt; {&quot;id&quot;:64,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:10:19.919 &lt;&lt; {&quot;id&quot;:64,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.919 &gt;&gt; {&quot;id&quot;:65,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:10:19.923 &lt;&lt; {&quot;id&quot;:65,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.924 &gt;&gt; {&quot;id&quot;:66,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;t&quot;,&quot;windowsVirtualKeyCode&quot;:116}}
+20:10:19.926 &lt;&lt; {&quot;id&quot;:66,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.926 &gt;&gt; {&quot;id&quot;:67,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:10:19.929 &lt;&lt; {&quot;id&quot;:67,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.930 &gt;&gt; {&quot;id&quot;:68,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:10:19.936 &lt;&lt; {&quot;id&quot;:68,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.936 &gt;&gt; {&quot;id&quot;:69,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;_&quot;,&quot;windowsVirtualKeyCode&quot;:523}}
+20:10:19.938 &lt;&lt; {&quot;id&quot;:69,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.939 &gt;&gt; {&quot;id&quot;:70,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.942 &lt;&lt; {&quot;id&quot;:70,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.943 &gt;&gt; {&quot;id&quot;:71,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.946 &lt;&lt; {&quot;id&quot;:71,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.948 &gt;&gt; {&quot;id&quot;:72,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;s&quot;,&quot;windowsVirtualKeyCode&quot;:115}}
+20:10:19.952 &lt;&lt; {&quot;id&quot;:72,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.953 &gt;&gt; {&quot;id&quot;:73,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.955 &lt;&lt; {&quot;id&quot;:73,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.956 &gt;&gt; {&quot;id&quot;:74,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.959 &lt;&lt; {&quot;id&quot;:74,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.960 &gt;&gt; {&quot;id&quot;:75,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;a&quot;,&quot;windowsVirtualKeyCode&quot;:97}}
+20:10:19.962 &lt;&lt; {&quot;id&quot;:75,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.962 &gt;&gt; {&quot;id&quot;:76,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:10:19.964 &lt;&lt; {&quot;id&quot;:76,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.965 &gt;&gt; {&quot;id&quot;:77,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:10:19.969 &lt;&lt; {&quot;id&quot;:77,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.969 &gt;&gt; {&quot;id&quot;:78,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;u&quot;,&quot;windowsVirtualKeyCode&quot;:117}}
+20:10:19.972 &lt;&lt; {&quot;id&quot;:78,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.972 &gt;&gt; {&quot;id&quot;:79,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:10:19.975 &lt;&lt; {&quot;id&quot;:79,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.975 &gt;&gt; {&quot;id&quot;:80,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:10:19.978 &lt;&lt; {&quot;id&quot;:80,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.979 &gt;&gt; {&quot;id&quot;:81,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;c&quot;,&quot;windowsVirtualKeyCode&quot;:99}}
+20:10:19.981 &lt;&lt; {&quot;id&quot;:81,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.982 &gt;&gt; {&quot;id&quot;:82,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;rawKeyDown&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.984 &lt;&lt; {&quot;id&quot;:82,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.985 &gt;&gt; {&quot;id&quot;:83,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;char&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.988 &lt;&lt; {&quot;id&quot;:83,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:19.989 &gt;&gt; {&quot;id&quot;:84,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Input.dispatchKeyEvent&quot;,&quot;params&quot;:{&quot;modifiers&quot;:0,&quot;type&quot;:&quot;keyUp&quot;,&quot;text&quot;:&quot;e&quot;,&quot;windowsVirtualKeyCode&quot;:101}}
+20:10:19.991 &lt;&lt; {&quot;id&quot;:84,&quot;result&quot;:{},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>click(&#39;input[name=login-button]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">65</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">20:10:19.994 &gt;&gt; {&quot;id&quot;:85,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.querySelector(\&quot;input[name=login-button]\&quot;).click()&quot;,&quot;returnByValue&quot;:true}}
+20:10:20.000 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStartedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:20.009 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;type&quot;:&quot;page&quot;,&quot;title&quot;:&quot;Swag Labs&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/inventory.html&quot;,&quot;attached&quot;:true,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:20.009 &lt;&lt; {&quot;method&quot;:&quot;Page.navigatedWithinDocument&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;,&quot;url&quot;:&quot;https://www.saucedemo.com/inventory.html&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:20.010 &lt;&lt; {&quot;method&quot;:&quot;Page.frameStoppedLoading&quot;,&quot;params&quot;:{&quot;frameId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:20.055 &lt;&lt; {&quot;id&quot;:85,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;undefined&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>delay(2000)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2013</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">20:10:20.582 &lt;&lt; {&quot;method&quot;:&quot;Target.targetCreated&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;D809ADC8099F8E67467E0159FBF2C2F8&quot;,&quot;type&quot;:&quot;other&quot;,&quot;title&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:20.700 &lt;&lt; {&quot;method&quot;:&quot;Target.targetInfoChanged&quot;,&quot;params&quot;:{&quot;targetInfo&quot;:{&quot;targetId&quot;:&quot;D809ADC8099F8E67467E0159FBF2C2F8&quot;,&quot;type&quot;:&quot;background_page&quot;,&quot;title&quot;:&quot;Google Docs Offline&quot;,&quot;url&quot;:&quot;chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/_generated_background_page.html&quot;,&quot;attached&quot;:false,&quot;canAccessOpener&quot;:false,&quot;browserContextId&quot;:&quot;C223AA679677542D5BB57B725F518213&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>waitForUrl(&#39;https://www.saucedemo.com/inventory.html&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">20:10:22.074 &gt;&gt; {&quot;id&quot;:86,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Runtime.evaluate&quot;,&quot;params&quot;:{&quot;expression&quot;:&quot;document.location.href&quot;,&quot;returnByValue&quot;:true}}
+20:10:22.077 &lt;&lt; {&quot;id&quot;:86,&quot;result&quot;:{&quot;result&quot;:{&quot;type&quot;:&quot;string&quot;,&quot;value&quot;:&quot;https://www.saucedemo.com/inventory.html&quot;}},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+20:10:22.079 &gt;&gt; {&quot;id&quot;:87,&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;,&quot;method&quot;:&quot;Target.closeTarget&quot;,&quot;params&quot;:{&quot;targetId&quot;:&quot;C1E1A66910E2286DB051B11766C1BB8E&quot;}}
+20:10:22.081 &lt;&lt; {&quot;id&quot;:87,&quot;result&quot;:{&quot;success&quot;:true},&quot;sessionId&quot;:&quot;85C17F9E6CB6029BAC6FAF7FE59F8E8C&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
