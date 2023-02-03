@@ -1,7 +1,7 @@
 Feature: Lauching App in chrome browser
 
 Background:
-    * configure driver = { type: 'chrome', showDriverLog: true,httpConfig: { readTimeout: 120000 } }
+    * configure driver = { type: 'chrome', showDriverLog: true}
 
 Scenario: User must able to login in SauceDemo
 
